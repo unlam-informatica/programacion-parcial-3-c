@@ -54,8 +54,7 @@ void ordenarLista(tLista *p, int (*comparar)(const void *, const void *));
 
 int  vaciarMostrarDetalleYProm(tLista *p, FILE *fp,
                                int (*comparar)(const void *, const void *),
-                               int (*acumular)(void **, unsigned *,
-                                    const void *, unsigned),
+                               int (*acumular)(void **, unsigned *, const void *, unsigned),
                                void (*mostrar)(const void *, FILE *),
                                void (*mostrar2)(const void *, int, FILE *));
 

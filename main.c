@@ -14,7 +14,7 @@ int main()
     fprintf(fpPant, "- Se cargo la lista con %d finales.\n\n", cant);
 
 
-    cant = mostrarDeIzqADer(&lista, mostrarFinal, fpPant);
+    cant = mostrarDeIzqADer(&lista, mostrarFinal_MIO, fpPant);
 /** invoque acá su versión de la función ...  **/
 ///    cant = mostrarDeIzqADer_MIO(&lista, mostrarFinal_MIO, fpPant);
 
@@ -23,12 +23,12 @@ int main()
     fprintf(fpPant, "- Ordenando por dni.\n");
 
 
-    ordenarLista(&lista, compararFinal);
+    ordenarLista(&lista, compararFinal_MIO);
 /** invoque acá su versión de la función ...  **/
 ///    ordenarLista_MIO(&lista, compararFinal_MIO);
 
 
-    if(cant != mostrarDeIzqADer(&lista, mostrarFinal, fpPant))
+    if(cant != mostrarDeIzqADer(&lista, mostrarFinal_MIO, fpPant))
         fprintf(fpPant, "- Ups!!! - Faltan nodos.\n");
     else
         fprintf(fpPant,
@@ -38,9 +38,9 @@ int main()
 
 
     cantElim = vaciarMostrarDetalleYProm(&lista, fpPant,
-                                         compararFinal,
+                                         compararFinal_MIO,
                                          acumularCalif,
-                                         mostrarFinal,
+                                         mostrarFinal_MIO,
                                          mostrarProm);
 /** invoque acá su versión de la función ...  **/
 ///    cantElim = vaciarMostrarDetalleYProm_MIO(&lista, fpPant,

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1594420158 source:c:\users\marcos\dev\workspace\unlam\programacion\parciales\programacion-ea3-c\main.c
+	"main.h"
+
+1594253020 c:\users\marcos\dev\workspace\unlam\programacion\parciales\programacion-ea3-c\main.h
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1594415664 c:\users\marcos\dev\workspace\unlam\programacion\parciales\programacion-ea3-c\funciones.h
+	<stdio.h>
+
+1594420686 source:c:\users\marcos\dev\workspace\unlam\programacion\parciales\programacion-ea3-c\funciones.c
+	<string.h>
+	"funciones.h"
+
